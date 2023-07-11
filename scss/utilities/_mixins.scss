@@ -1,0 +1,20 @@
+// Mixins
+
+@mixin dispmarg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@mixin bg-color($color-hover-light) {
+    &:hover {background-color: lighten($color: $color-hover-light , $amount: 15%);}
+}
+
+// Transition
+@mixin btn-hover($color) {
+    background-color: $color;
+    transition: background .5s ease-in;
+    &:hover {
+        background: lighten($color, 15%);
+    }
+}

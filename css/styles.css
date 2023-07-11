@@ -440,26 +440,61 @@ a {
 /* line 15, ../../../../../../../../../../../../../Users/gregorschulze/Documents/Github_Projects/Projekt-04_Web-Style-Guide/scss/component/_button.scss */
 .default {
   background-color: #51ddfc;
+  background-color: #51ddfc;
+  transition: background .5s ease-in;
 }
 
-/* line 19, ../../../../../../../../../../../../../Users/gregorschulze/Documents/Github_Projects/Projekt-04_Web-Style-Guide/scss/component/_button.scss */
+/* line 17, ../../../../../../../../../../../../../Users/gregorschulze/Documents/Github_Projects/Projekt-04_Web-Style-Guide/scss/utilities/_mixins.scss */
+.default:hover {
+  background: #9cecfd;
+}
+
+/* line 20, ../../../../../../../../../../../../../Users/gregorschulze/Documents/Github_Projects/Projekt-04_Web-Style-Guide/scss/component/_button.scss */
 .error {
   background-color: #e4757a;
+  background-color: #e4757a;
+  transition: background .5s ease-in;
 }
 
-/* line 23, ../../../../../../../../../../../../../Users/gregorschulze/Documents/Github_Projects/Projekt-04_Web-Style-Guide/scss/component/_button.scss */
+/* line 17, ../../../../../../../../../../../../../Users/gregorschulze/Documents/Github_Projects/Projekt-04_Web-Style-Guide/scss/utilities/_mixins.scss */
+.error:hover {
+  background: #f1b5b8;
+}
+
+/* line 26, ../../../../../../../../../../../../../Users/gregorschulze/Documents/Github_Projects/Projekt-04_Web-Style-Guide/scss/component/_button.scss */
 .info {
   background-color: #927bc1;
+  background-color: #927bc1;
+  transition: background .5s ease-in;
 }
 
-/* line 27, ../../../../../../../../../../../../../Users/gregorschulze/Documents/Github_Projects/Projekt-04_Web-Style-Guide/scss/component/_button.scss */
-.success {
-  background-color: #63cc82;
+/* line 17, ../../../../../../../../../../../../../Users/gregorschulze/Documents/Github_Projects/Projekt-04_Web-Style-Guide/scss/utilities/_mixins.scss */
+.info:hover {
+  background: #bdafd9;
 }
 
 /* line 31, ../../../../../../../../../../../../../Users/gregorschulze/Documents/Github_Projects/Projekt-04_Web-Style-Guide/scss/component/_button.scss */
+.success {
+  background-color: #63cc82;
+  background-color: #63cc82;
+  transition: background .5s ease-in;
+}
+
+/* line 17, ../../../../../../../../../../../../../Users/gregorschulze/Documents/Github_Projects/Projekt-04_Web-Style-Guide/scss/utilities/_mixins.scss */
+.success:hover {
+  background: #9ddfb0;
+}
+
+/* line 36, ../../../../../../../../../../../../../Users/gregorschulze/Documents/Github_Projects/Projekt-04_Web-Style-Guide/scss/component/_button.scss */
 .warning {
   background-color: #fd7856;
+  background-color: #fd7856;
+  transition: background .5s ease-in;
+}
+
+/* line 17, ../../../../../../../../../../../../../Users/gregorschulze/Documents/Github_Projects/Projekt-04_Web-Style-Guide/scss/utilities/_mixins.scss */
+.warning:hover {
+  background: #feb4a2;
 }
 
 /* ============================================= */
@@ -511,7 +546,7 @@ a {
   transition: background-color .2s ease-in-out,  color .2s ease-in-out;
 }
 
-/* line 23, ../../../../../../../../../../../../../Users/gregorschulze/Documents/Github_Projects/Projekt-04_Web-Style-Guide/scss/component/_navigation.scss */
+/* line 21, ../../../../../../../../../../../../../Users/gregorschulze/Documents/Github_Projects/Projekt-04_Web-Style-Guide/scss/component/_navigation.scss */
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
@@ -724,7 +759,7 @@ a {
   max-height: 100%;
 }
 
-/* line 14, ../../../../../../../../../../../../../Users/gregorschulze/Documents/Github_Projects/Projekt-04_Web-Style-Guide/scss/component/_images.scss */
+/* line 12, ../../../../../../../../../../../../../Users/gregorschulze/Documents/Github_Projects/Projekt-04_Web-Style-Guide/scss/component/_images.scss */
 .img-frame {
   display: block;
   margin-left: auto;
@@ -735,7 +770,7 @@ a {
   border: 1px solid #ccc;
 }
 
-/* line 24, ../../../../../../../../../../../../../Users/gregorschulze/Documents/Github_Projects/Projekt-04_Web-Style-Guide/scss/component/_images.scss */
+/* line 20, ../../../../../../../../../../../../../Users/gregorschulze/Documents/Github_Projects/Projekt-04_Web-Style-Guide/scss/component/_images.scss */
 .img-logo {
   display: block;
   margin-left: auto;

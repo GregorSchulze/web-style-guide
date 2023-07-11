@@ -14,20 +14,26 @@
   
   .default {
     background-color: $default;
-  }
+    @include btn-hover($default)
+    }
   
   .error {
     background-color: $error;
+    @include btn-hover($error)
+
   }
   
   .info {
     background-color: $info;
+    @include btn-hover($info)
   }
   
   .success {
     background-color: $success;
+    @include btn-hover($success)
   }
   
   .warning {
     background-color: $warning;
+    @include btn-hover($warning)
   }
