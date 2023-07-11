@@ -2,8 +2,10 @@
 
 $color-primary: #777;
 $color-secondary: #58e1c1;
-$color-third: #51ddfc;
 
+$color-link: #51ddfc;
+$color-border: #58e1c1;
+$color-link-hover: #fff;
 
-
-
+// Media Queries
+$break-m: 768px;
